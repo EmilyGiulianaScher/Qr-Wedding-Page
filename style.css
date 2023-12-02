@@ -1,4 +1,56 @@
-body{
-background-color:rgb(235,233,222)
-;
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 219, 205);
+    font-family: 'Cormorant Garamond', serif;
 }
+
+.contenedor-central {
+    width: 80%; /* Puedes ajustar este valor según tu diseño */
+    text-align: center;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la caja del contenido */
+.cuerpo-pag {
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(211,203,185);
+}
+
+.texto1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.texto2 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+a{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.538);
+    cursor: pointer;
+    transition: transform 1000ms;
+    padding: 1em 2em;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none !important;
+    color: rgb(118, 71, 46);
+
+}
+
+
+/* Estilos adicionales según sea necesario */
